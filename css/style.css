@@ -1,0 +1,205 @@
+/*Car Dealership*/
+
+
+.header{
+	background-color: black;
+	padding: 40px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	position: fixed;
+	top: 0.1px;
+	width: 100%;
+
+}
+.header img{
+	position: absolute;
+	left: 80px;
+	bottom: 14px;
+}
+
+.header a{
+	padding: 30px;
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 18px;
+
+}
+
+.header a:hover{
+	color: purple;
+}
+
+h3{
+	font-family: arial;
+}
+h1{
+	font-family: arial;
+}
+.cover img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.background-detail{
+	background-color: black;
+	padding: 35px;
+}
+.detail{
+	margin: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card:hover{
+	color: purple;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.highlight{
+	 background-image: url("../img/73a360c68042ae98f65d8a49936ea78c-700.jpg");
+	background-size: cover;
+}
+.highlight h1{
+	margin: 1px;
+	padding: 250px;
+	text-align: center;
+	position: relative;
+	top: 220px;
+	color: white;
+}
+
+.footer{
+	width:100%;
+	padding: 100px 10%;
+	background: #333;
+	color:#efefef;
+	display: flex;
+}
+.footer div{
+	text-align: center;
+}
+
+.col-2{
+	flex-grow: 2;
+}
+
+.footer div h3{
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.col-1 a{
+	display: block;
+	text-decoration: none;
+	color: #efefef;
+	margin-bottom: 10px;
+}
+form input{
+	width: 400px;
+	height: 45px;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	outline: none;
+	border: none;
+}
+
+form button{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.social i{
+		letter-spacing: 10px;
+		color: white;
+}
+
+.body img{
+		margin: 80px;
+		padding: 0px;
+}
+
+.body2 ul li{
+	display: inline-block;
+	border-color: black;
+	border: 1px;
+}
+.body2 p{
+	font-family: arial;
+	font-weight: 200px;
+	font-size: 30px;
+	color: black;
+}
+
+.body2 p:hover{
+	color: purple;
+}
+.body3 h1{
+	background-color: orangered;
+	width: 100%;
+	margin-top: 120px;
+	font-size: 30px;
+	padding: 35px;
+	font-family: arial;
+	color: white;
+}
+.body3 p{
+	font-family: arial;
+	color: grey;
+}
+.body3 h2{
+	font-family: arial;
+	font-size: 34px;
+}
+
+button{
+	border-radius: 4%;
+	background-color: grey;
+	color: white;
+	border: none;
+	width: 150px;
+	height: 45px;
+}
